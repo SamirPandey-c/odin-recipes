@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bold.big{
+            font-weight: 900;
+            font-size: 33px;
+        }
+
+        .bold.small{
+            font-weight: 900;
+        }
+
+        .greenbtn{
+            font-weight: 900;
+            background-color: rgb(4, 182, 4);
+            color: white;
+            border: 1px solid black;
+        }
+
+        .thin, .parent{
+            font-size: larger;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <p class="bold big">I'm just a paragraph with extra bold text!</p>
+
+    <p class="bold small">I'm just a smaller paragraph, also with extra bold text!</p>
+
+    <button class="greenbtn">Confirm</button> 
+    <button>Cancle</button>
+    <div class="thin parent">
+        I'm a div with thin text
+        <div class="thin">
+            I'm a div with thin text and a child div
+
+            <div style="font-weight: 900;">
+                I'm a smaller child div with thin text with extra bold text
+            </div>
+        </div>
+    </div>
+</body>
+</html>
